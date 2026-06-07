@@ -1,0 +1,38 @@
+﻿{
+  "app": { "name": "Bulan Buka", "tagline": "Vaxtında, sakitcə" },
+  "prayer": {
+    "fajr": "Fəcr", "sunrise": "Günəş", "dhuhr": "Zöhr",
+    "asr": "Əsr", "maghrib": "Məğrib", "isha": "İşa",
+    "next": "Növbəti namaz"
+  },
+  "home": {
+    "remaining": "%{hours} saat %{minutes} dəqiqə qaldı",
+    "remainingMinutes": "%{minutes} dəqiqə qaldı",
+    "now": "İndi vaxtdır"
+  },
+  "notification": { "body": "%{city} • namaz vaxtı çatdı" },
+  "settings": {
+    "title": "Tənzimləmələr",
+    "location": "Yer", "useGPS": "GPS-ə görə təyin et", "selectCity": "Şəhər seç",
+    "madhab": "Məzhəb", "method": "Hesablama metodu",
+    "language": "Dil",
+    "theme": "Mövzu", "themeSystem": "Sistem", "themeLight": "Açıq", "themeDark": "Tünd",
+    "notifications": "Bildirişlər", "notificationsOn": "Aktivdir", "notificationsOff": "Söndürülüb",
+    "adjustments": "Vaxt düzəlişləri",
+    "reset": "Defoltlara qaytar",
+    "about": "Saleh haqqında"
+  },
+  "tasbih": {
+    "title": "Təsbih",
+    "subhanallah": "Subhənallah",
+    "alhamdulillah": "Əlhəmdülillah",
+    "allahuakbar": "Allahu Əkbər",
+    "today": "Bugün",
+    "cycles": "99 təsbih",
+    "total": "Ümumi",
+    "resetCycle": "Cari fazanı sıfırla",
+    "resetAll": "Hamısını sıfırla"
+  },
+  "common": { "close": "Bağla", "save": "Yadda saxla", "cancel": "Ləğv et", "confirm": "Təsdiqlə" }
+}
+

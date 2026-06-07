@@ -1,0 +1,38 @@
+﻿{
+  "app": { "name": "Bulan Buka", "tagline": "On time, quietly" },
+  "prayer": {
+    "fajr": "Fajr", "sunrise": "Sunrise", "dhuhr": "Dhuhr",
+    "asr": "Asr", "maghrib": "Maghrib", "isha": "Isha",
+    "next": "Next prayer"
+  },
+  "home": {
+    "remaining": "%{hours}h %{minutes}m remaining",
+    "remainingMinutes": "%{minutes} min remaining",
+    "now": "It is time"
+  },
+  "notification": { "body": "%{city} • time for prayer" },
+  "settings": {
+    "title": "Settings",
+    "location": "Location", "useGPS": "Use GPS", "selectCity": "Select city",
+    "madhab": "Madhab", "method": "Calculation method",
+    "language": "Language",
+    "theme": "Theme", "themeSystem": "System", "themeLight": "Light", "themeDark": "Dark",
+    "notifications": "Notifications", "notificationsOn": "On", "notificationsOff": "Off",
+    "adjustments": "Time adjustments",
+    "reset": "Reset to defaults",
+    "about": "About Bulan Buka"
+  },
+  "tasbih": {
+    "title": "Tasbih",
+    "subhanallah": "Subhanallah",
+    "alhamdulillah": "Alhamdulillah",
+    "allahuakbar": "Allahu Akbar",
+    "today": "Today",
+    "cycles": "99 dhikr",
+    "total": "Total",
+    "resetCycle": "Reset current phase",
+    "resetAll": "Reset all"
+  },
+  "common": { "close": "Close", "save": "Save", "cancel": "Cancel", "confirm": "Confirm" }
+}
+

@@ -1,0 +1,38 @@
+﻿{
+  "app": { "name": "Bulan Buka", "tagline": "Вовремя, тихо" },
+  "prayer": {
+    "fajr": "Фаджр", "sunrise": "Восход", "dhuhr": "Зухр",
+    "asr": "Аср", "maghrib": "Магриб", "isha": "Иша",
+    "next": "Следующий намаз"
+  },
+  "home": {
+    "remaining": "Осталось %{hours} ч %{minutes} мин",
+    "remainingMinutes": "Осталось %{minutes} мин",
+    "now": "Время намаза"
+  },
+  "notification": { "body": "%{city} • время намаза" },
+  "settings": {
+    "title": "Настройки",
+    "location": "Местоположение", "useGPS": "Использовать GPS", "selectCity": "Выбрать город",
+    "madhab": "Мазхаб", "method": "Метод расчёта",
+    "language": "Язык",
+    "theme": "Тема", "themeSystem": "Системная", "themeLight": "Светлая", "themeDark": "Тёмная",
+    "notifications": "Уведомления", "notificationsOn": "Включены", "notificationsOff": "Отключены",
+    "adjustments": "Корректировка времени",
+    "reset": "Сбросить",
+    "about": "О Bulan Buka"
+  },
+  "tasbih": {
+    "title": "Тасбих",
+    "subhanallah": "Субханаллах",
+    "alhamdulillah": "Альхамдулиллах",
+    "allahuakbar": "Аллаху Акбар",
+    "today": "Сегодня",
+    "cycles": "99 зикр",
+    "total": "Всего",
+    "resetCycle": "Сбросить фазу",
+    "resetAll": "Сбросить всё"
+  },
+  "common": { "close": "Закрыть", "save": "Сохранить", "cancel": "Отмена", "confirm": "Подтвердить" }
+}
+

@@ -1,0 +1,87 @@
+﻿{
+  "expo": {
+    "name": "Bulan Buka",
+    "slug": "saleh",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "saleh",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F1B2D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "az.hqiyas.saleh",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Bulan Buka sizin yerinize gore deqiq namaz vaxtlarini hesablayir.",
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "az.hqiyas.saleh",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F1B2D"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Bulan Buka sizin yerinize gore namaz vaxtlarini deqiq hesablayir."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#D4A574",
+          "defaultChannel": "prayer-times",
+          "sounds": [
+            "./assets/audio/adhan_short.mp3"
+          ]
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "85417d54-32aa-4282-b913-0b3ad7c301d0"
+      }
+    }
+  }
+}
